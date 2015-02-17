@@ -1,2 +1,6 @@
 # webgl-experiment
-Experiments with WebGL. Inspired by www.webglacademy.com
+Experiments with WebGL. 
+Inspired by www.webglacademy.com
+
+(committed via Nitrous)
+
