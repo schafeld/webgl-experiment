@@ -10,7 +10,7 @@ var main=function() {
   try {
     GL = CANVAS.getContext("experimental-webgl", {antialias: true});
   } catch (e) {
-    alert("You are not webgl compatible :(") ;
+    alert("You are not webgl compatible.") ;
     return false;
   }
 
