@@ -8,7 +8,7 @@ var main=function() {
   /*========================= GET WEBGL CONTEXT ========================= */
   var GL;
   try {
-    GL = CANVAS.getContext("experimental-webgl", {antialias: false});
+    GL = CANVAS.getContext("experimental-webgl", {antialias: true});
   } catch (e) {
     alert("You are not webgl compatible :(") ;
     return false;
