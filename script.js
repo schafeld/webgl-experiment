@@ -117,7 +117,7 @@ gl_FragColor = vec4(vColor, 1.);\n\
 
     GL.flush();
 
-    window.requestAnimationFrame(animate);
+    window.requestAnimationFrame(draw);
   };
 
   draw();
